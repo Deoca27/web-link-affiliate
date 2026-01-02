@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Produk Shopee</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <header class="head">
+        <div class="mark">S</div>
+        <div>
+          <h1 class="title">Produk</h1>
+          <p class="subtitle">Cari dan pilih produk untuk lanjut.</p>
+        </div>
+      </header>
+
+      <!-- SEARCH -->
+      <div class="search-wrap">
+        <input id="productSearch" class="search-input" type="text" placeholder="Cari produk..." autocomplete="off" />
+      </div>
+
+      <!-- GRID PRODUK -->
+      <div id="productGrid" class="product-grid"></div>
+
+      <div class="actions" style="margin-top:14px;">
+        <a class="btn btn-page" href="../index.html">
+          <span class="dot"></span>
+          <div class="btn-text">
+            <span class="btn-title">Kembali</span>
+            <span class="btn-desc">Balik ke landing page</span>
+          </div>
+          <span class="btn-arrow">‹</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- DATA PRODUK (EDIT DI SINI BUAT Nambah Produk) -->
+  <script src="../products.js"></script>
+
+  <!-- LOGIC -->
+  <script src="../script.js"></script>
+</body>
+</html>

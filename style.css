@@ -1,0 +1,392 @@
+/* =========================================================
+   GLOBAL VARIABLES (JARANG DIUBAH)
+   ========================================================= */
+:root{
+  --bg1:#0b1220;
+  --bg2:#050814;
+  --card:#0c1426cc;
+  --stroke:#ffffff14;
+  --text:#eaf2ff;
+  --muted:#a9b7d0;
+  --shadow: 0 18px 60px rgba(0,0,0,.45);
+  --radius: 22px;
+
+  --shopee1:#ff7a00;
+  --shopee2:#ee4d2d;
+}
+
+/* =========================================================
+   RESET & BODY
+   ========================================================= */
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+
+body{
+  margin:0;
+  color:var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  background:
+    radial-gradient(900px 500px at 20% 15%, #1b3b8a55, transparent 60%),
+    radial-gradient(800px 500px at 80% 10%, #ff6a0050, transparent 55%),
+    linear-gradient(135deg, var(--bg1), var(--bg2));
+}
+
+/* =========================================================
+   LAYOUT UTAMA
+   ========================================================= */
+.wrap{
+  min-height:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+}
+
+.card{
+  width:min(560px, 100%);
+  background: var(--card);
+  border:1px solid var(--stroke);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  padding: 22px;
+  backdrop-filter: blur(10px);
+  overflow: hidden; /* logo tombol tidak keluar card */
+}
+
+/* =========================================================
+   HEADER CARD
+   ========================================================= */
+.head{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding-bottom:14px;
+  border-bottom:1px solid var(--stroke);
+  margin-bottom:16px;
+}
+
+.mark{
+  width:42px;
+  height:42px;
+  border-radius:14px;
+  display:grid;
+  place-items:center;
+  background:#ffffff10;
+  border:1px solid var(--stroke);
+  font-weight:900;
+}
+
+.title{
+  margin:0;
+  font-size:22px;
+}
+
+.subtitle{
+  margin-top:4px;
+  font-size:13.5px;
+  color:var(--muted);
+}
+
+/* =========================================================
+   BUTTON (GLOBAL)
+   ========================================================= */
+.actions{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.btn{
+  width:100%;
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:16px;
+  border-radius:18px;
+  border:1px solid var(--stroke);
+  background:#0a1222;
+  color:var(--text);
+  cursor:pointer;
+  box-shadow:0 8px 24px rgba(0,0,0,.22);
+  transition:.2s ease;
+  text-decoration:none;
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 34px rgba(0,0,0,.35);
+}
+
+.btn-text{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+
+.btn-title{
+  font-size:16px;
+  font-weight:900;
+}
+
+.btn-desc{
+  font-size:12.5px;
+  color:var(--muted);
+}
+
+.btn-arrow{
+  font-size:26px;
+}
+
+/* =========================================================
+   SHOPEE BUTTON (EDIT DI SINI KALAU MAU NGUBAH TAMPILAN)
+   ========================================================= */
+.btn-shopee{
+  background: linear-gradient(135deg, var(--shopee1), var(--shopee2));
+  border:none;
+  padding-left:90px; /* ruang logo */
+}
+
+.btn-shopee .btn-icon{
+  position:absolute;
+  left:20px;
+  top:50%;
+  transform: translate(-45%, -50%); /* efek keluar dari tombol */
+  width:78px;
+  height:78px;
+  background:white;
+  padding:10px;
+  border-radius:18px;
+  box-shadow:0 14px 30px rgba(0,0,0,.45);
+}
+
+/* =========================================================
+   BUTTON KEDUA / NETRAL
+   ========================================================= */
+.btn-page{
+  background: linear-gradient(135deg, #1b2a4d, #0b1220);
+}
+
+.dot{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:#ffffff25;
+  border:1px solid var(--stroke);
+}
+
+/* =========================================================
+   SEARCH (PAGE 1)
+   ========================================================= */
+.search-wrap{
+  margin-top: 14px;
+}
+
+.search-input{
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid var(--stroke);
+  background: #0a1222;
+  color: var(--text);
+  outline: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,.18);
+}
+
+.search-input::placeholder{
+  color: #8ea0bd;
+}
+
+.search-input:focus{
+  border-color: #ffffff2a;
+  box-shadow: 0 12px 26px rgba(0,0,0,.28);
+}
+
+/* =========================================================
+   PRODUCT GRID (PAGE 1)
+   ========================================================= */
+.product-grid{
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap:14px;
+  margin-top:16px;
+}
+
+@media (max-width:520px){
+  .product-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* =========================================================
+   PRODUCT CARD (REUSABLE COMPONENT)
+   ========================================================= */
+.product-card{
+  background:#0a1222;
+  border:1px solid var(--stroke);
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 10px 26px rgba(0,0,0,.22);
+  transition:.2s ease;
+}
+
+.product-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 16px 36px rgba(0,0,0,.35);
+}
+
+.product-thumb{
+  aspect-ratio: 16 / 10;
+  background:#0b1220;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.product-thumb img{
+  width:72px;
+  height:72px;
+  object-fit:contain;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,.35));
+}
+
+.product-body{
+  padding:12px;
+}
+
+.product-title{
+  margin:0;
+  font-size:14.5px;
+  font-weight:900;
+}
+
+.product-price{
+  margin:6px 0 10px;
+  font-size:12.5px;
+  color:var(--muted);
+}
+
+.product-actions{
+  display:flex;
+  gap:10px;
+}
+
+/* =========================================================
+   PRODUCT BUTTON
+   ========================================================= */
+.pbtn{
+  flex:1;
+  padding:10px 12px;
+  border-radius:14px;
+  font-size:12.5px;
+  font-weight:900;
+  cursor:pointer;
+  border:1px solid var(--stroke);
+  background:#0b1220;
+  color:var(--text);
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.pbtn-primary{
+  border:none;
+  background: linear-gradient(135deg, var(--shopee1), var(--shopee2));
+  color:white;
+}
+
+/* =========================================================
+   EMPTY STATE
+   ========================================================= */
+.empty{
+  grid-column: 1 / -1;
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid var(--stroke);
+  background: #0a1222;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* =========================================================
+   FOOTNOTE
+   ========================================================= */
+.footnote{
+  margin-top:14px;
+  text-align:center;
+  font-size:12px;
+  color:#8ea0bd;
+}
+
+/* =========================================================
+   RESPONSIVE (EDIT DI SINI KALAU MAU NGUBAH MOBILE)
+   ========================================================= */
+@media (max-width:480px){
+  .btn-shopee{
+    padding-left:78px;
+  }
+
+  .btn-shopee .btn-icon{
+    width:64px;
+    height:64px;
+    left:18px;
+    transform: translate(-40%, -50%);
+  }
+}
+
+/* === TAMBAHAN DI style.css (taruh di paling bawah) === */
+.info-box{
+  border:1px solid var(--stroke);
+  background:#0a1222;
+  border-radius:18px;
+  padding:12px;
+  margin-top:16px;
+}
+
+.info-row{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:8px 4px;
+  border-bottom:1px solid var(--stroke);
+}
+
+.info-row:last-child{
+  border-bottom:none;
+}
+
+.info-label{
+  color:var(--muted);
+  font-size:12.5px;
+}
+
+.info-value{
+  font-size:12.5px;
+  font-weight:800;
+  text-align:right;
+}
+
+.map-frame{
+  margin-top:14px;
+  border-radius:18px;
+  overflow:hidden;
+  border:1px solid var(--stroke);
+  background:#0b1220;
+  aspect-ratio: 16 / 10;
+}
+
+.map-frame iframe{
+  width:100%;
+  height:100%;
+  border:0;
+}
+
+.btn-map{
+  background: linear-gradient(135deg, #ef4444, #f59e0b);
+  border:none;
+}
+
+.dot-map{
+  background:#ffffff35;
+}
