@@ -24,7 +24,7 @@ window.PRODUCTS = [
     link: "https://s.shopee.co.id/8pfDRFB0no"
   },
   {
-    title: "PROMO USUS CRISPY",
+    title: "USUS CRISPY keripik usus",
     price: "Rp 56.000 - Rp 97.000",
     img: "https://down-id.img.susercontent.com/file/id-11134207-81zth-meds94i963gja2.webp",
     link: "https://s.shopee.co.id/3fx7HleWJR"

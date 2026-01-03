@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     btnBuy.href = product.link || "#";
     btnBuy.target = "_blank";
     btnBuy.rel = "noopener";
-    btnBuy.textContent = "Beli di Shopee";
+    btnBuy.textContent = "Beli";
 
     actions.appendChild(btnBuy);
 
