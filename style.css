@@ -1,5 +1,5 @@
 /* =========================================================
-   GLOBAL VARIABLES (JARANG DIUBAH)
+   GLOBAL VARIABLES
    ========================================================= */
 :root{
   --bg1:#0b1220;
@@ -26,8 +26,8 @@ body{
   color:var(--text);
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
   background:
-    radial-gradient(900px 500px at 20% 15%, #1b3b8a55, transparent 60%),
-    radial-gradient(800px 500px at 80% 10%, #ff6a0050, transparent 55%),
+    radial-gradient(900px 500px at 20% 50%, #1b3b8a55, transparent 60%),
+    radial-gradient(800px 500px at 80% 50%, #ff6a0050, transparent 55%),
     linear-gradient(135deg, var(--bg1), var(--bg2));
 }
 
@@ -139,7 +139,7 @@ body{
 }
 
 /* =========================================================
-   SHOPEE BUTTON (EDIT DI SINI KALAU MAU NGUBAH TAMPILAN)
+   SHOPEE BUTTON 
    ========================================================= */
 .btn-shopee{
   background: linear-gradient(135deg, var(--shopee1), var(--shopee2));
