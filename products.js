@@ -24,6 +24,54 @@ window.PRODUCTS = [
     link: "https://s.shopee.co.id/8APZHi6rVp"
   },
   {
+    title: "FOLAMIL GENIO 30 CAPSUL",
+    price: "Rp 155.000",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-8224x-mi12itqxli4jbe.webp",
+    link: "https://s.shopee.co.id/8zygISkslt"
+  },
+  {
+    title: "PROVE D3 Tablet - Vitamin D3 1000 IU",
+    price: "Rp 68.140",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-81ztp-mf9iw6h8hudpe4.webp",
+    link: "https://s.shopee.co.id/8zygIkNJqY"
+  },
+  {
+    title: "PROVE D3 Tablet 1 Strip x 10 Tablet - Vitamin D3 1000 IU",
+    price: "Rp 25.958",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-81zti-mfkxhk0gwyrw28.webp",
+    link: "https://s.shopee.co.id/1BFoyhcPRS"
+  },
+  {
+    title: "Expert Boost - Gummy Vitamin D 600 IU Anak dan Dewasa",
+    price: "Rp 76.700 - Rp 93.900",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-7ra0u-mcfn5ki6ld1ed7.webp",
+    link: "https://s.shopee.co.id/9pXnIlbWHX"
+  },
+  {
+    title: "CAL-95 SUPLEMEN TULANG 1 STRIP 6 CAPLET/BOX",
+    price: "Rp 261.990",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-82250-mhygor6rpyx49b.webp",
+    link: "https://s.shopee.co.id/8pfG75Gryr"
+  },
+  {
+    title: "CAL-95 1 Box @ 30 Kaplet / Suplemen Kalsium",
+    price: "Rp 270.000",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-8224q-mgbzusgf1jimd9.webp",
+    link: "https://s.shopee.co.id/8fLpusEbDP"
+  },
+  {
+    title: "Maltofer Drops Isi 30 Ml Botol",
+    price: "Rp 87.215",
+    img: "https://down-id.img.susercontent.com/file/sg-11134201-8226l-mhlsusgdy7ly08.webp",
+    link: "https://s.shopee.co.id/3B0tMq3Glw"
+  },
+  {
+    title: "Maltofer Fol Box 30 Tablet Kunyah",
+    price: "Rp 132.059",
+    img: "https://down-id.img.susercontent.com/file/sg-11134201-82272-mhlut29nd8n655.webp",
+    link: "https://s.shopee.co.id/8APZKEiDMu"
+  },
+  {
     title: "Jas Hujan Setelan Baju Celana Pria Wanita Tebal Kuat Anti Rembes by AKSARA Original",
     price: "Rp 75.000",
     img: "https://down-id.img.susercontent.com/file/id-11134207-81ztg-meqqofinmkg04a.webp",
