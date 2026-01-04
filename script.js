@@ -75,11 +75,56 @@ document.addEventListener("DOMContentLoaded", () => {
       grid.appendChild(empty);
       return;
     }
+
     list.forEach((p) => grid.appendChild(ProductCard(p)));
+
+    // ✅ samain tinggi title per-row setelah DOM kebentuk
+    requestAnimationFrame(equalizeTitleHeights);
+  }
+
+  // ✅ NEW: samain tinggi title per baris (row)
+  function equalizeTitleHeights() {
+    const cards = [...grid.querySelectorAll(".product-card")];
+    if (!cards.length) return;
+
+    // reset dulu biar ngukur ulang bener
+    cards.forEach((card) => {
+      const t = card.querySelector(".product-title");
+      if (t) t.style.height = "auto";
+    });
+
+    // group per baris pakai offsetTop
+    const rows = new Map();
+
+    cards.forEach((card) => {
+      const top = card.offsetTop;
+      if (!rows.has(top)) rows.set(top, []);
+      rows.get(top).push(card);
+    });
+
+    // tiap row -> ambil max tinggi title -> set sama semua di row itu
+    rows.forEach((rowCards) => {
+      let maxH = 0;
+
+      rowCards.forEach((card) => {
+        const t = card.querySelector(".product-title");
+        if (t) maxH = Math.max(maxH, t.offsetHeight);
+      });
+
+      rowCards.forEach((card) => {
+        const t = card.querySelector(".product-title");
+        if (t) t.style.height = `${maxH}px`;
+      });
+    });
   }
 
   // initial render
   render(products);
+
+  // ✅ NEW: biar pas resize (2 kolom -> 1 kolom) tetap rapi
+  window.addEventListener("resize", () => {
+    requestAnimationFrame(equalizeTitleHeights);
+  });
 
   // search filter
   if (searchInput) {
