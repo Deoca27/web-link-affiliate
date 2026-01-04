@@ -36,28 +36,16 @@ window.PRODUCTS = [
     link: "https://s.shopee.co.id/9pXnIlbWHX"
   },
   {
-    title: "CAL-95 SUPLEMEN TULANG 1 STRIP 6 CAPLET/BOX",
-    price: "Rp 261.990",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-82250-mhygor6rpyx49b.webp",
-    link: "https://s.shopee.co.id/8pfG75Gryr"
-  },
-  {
     title: "CAL-95 1 Box @ 30 Kaplet / Suplemen Kalsium",
     price: "Rp 270.000",
     img: "https://down-id.img.susercontent.com/file/id-11134207-8224q-mgbzusgf1jimd9.webp",
     link: "https://s.shopee.co.id/8fLpusEbDP"
   },
   {
-    title: "Maltofer Drops Isi 30 Ml Botol",
-    price: "Rp 87.215",
-    img: "https://down-id.img.susercontent.com/file/sg-11134201-8226l-mhlsusgdy7ly08.webp",
-    link: "https://s.shopee.co.id/3B0tMq3Glw"
-  },
-  {
-    title: "Maltofer Fol Box 30 Tablet Kunyah",
-    price: "Rp 132.059",
-    img: "https://down-id.img.susercontent.com/file/sg-11134201-82272-mhlut29nd8n655.webp",
-    link: "https://s.shopee.co.id/8APZKEiDMu"
+    title: "Maltofer Tablet 1 Strip 6 TAB / ZAT BESI / PENAMBAH DARAH / SUPLEMENT",
+    price: "Rp 26.333",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-7rasm-m16hellrm58f27.webp",
+    link: "https://s.shopee.co.id/AUnUPmNAZx"
   },
   {
     title: "Jas Hujan Setelan Baju Celana Pria Wanita Tebal Kuat Anti Rembes by AKSARA Original",
