@@ -1,27 +1,21 @@
 window.PRODUCTS = [
   {
-    title: "Parfum Mobil ZOOM organic BUBBLE GUM Pengharum block Gantung Original",
-    price: "Rp 23.590",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-7r992-lmmedvt7uobl63.webp",
-    link: "https://s.shopee.co.id/AUnU3bt6FL"
+    title: "ZOOM ORGANIC BLOCK PARFUM PENGHARUM DAN PEWANGI MOBIL - BUBBLE GUM",
+    price: "Rp 19.150",
+    img: "https://down-id.img.susercontent.com/file/sg-11134201-7rbkz-lpt40pclu9voc4.webp",
+    link: "https://s.shopee.co.id/7fTInFdXKI"
   },
   {
-    title: "Zoom Organic Block Parfum Pengharum Dan Pewangi Mobil - Bubble Gum",
-    price: "Rp 164.000",
-    img: "https://down-id.img.susercontent.com/file/sg-11134201-7rbme-lpt40pn5eu962a.webp",
-    link: "https://s.shopee.co.id/8zygGwATFT"
+    title: "Ikanesia - My Kura Untuk Daya Tahan Tubuh Kura-Kura 350 [TOPLES BIG SIZE]",
+    price: "Rp 17.500 - Rp 22.500",
+    img: "https://down-id.img.susercontent.com/file/67d3b80a155d1ea042c946ab08302ba6.webp",
+    link: "https://s.shopee.co.id/3fxA1z4M9X"
   },
   {
     title: "Hokky Pelet Pakan Kura Kura Stick Food Optimum Growth",
     price: "Rp 6.575",
     img: "https://down-id.img.susercontent.com/file/id-11134207-8224y-mhygw4a57chy01.webp",
     link: "https://s.shopee.co.id/AAAdfCddYp"
-  },
-  {
-    title: "Pakan kura kura HOKKY PEDFOOD",
-    price: "Rp 12.000",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-7rasa-m4cy56nmds3ref.webp",
-    link: "https://s.shopee.co.id/8APZHi6rVp"
   },
   {
     title: "FOLAMIL GENIO 30 CAPSUL",
