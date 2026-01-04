@@ -5,28 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Produk Shopee</title>
 
-  <!-- 🔥 AUTO CACHE BUSTING (SATU VERSION SAJA) -->
-  <script>
-    (function () {
-      const VERSION = "26-1-4.1"; // ⬅️ GANTI INI SAJA SETIAP DEPLOY
-
-      // CSS
-      const css = document.createElement("link");
-      css.rel = "stylesheet";
-      css.href = "../style.css?v=" + VERSION;
-      document.head.appendChild(css);
-
-      // products.js
-      const products = document.createElement("script");
-      products.src = "../products.js?v=" + VERSION;
-      document.body.appendChild(products);
-
-      // script.js
-      const main = document.createElement("script");
-      main.src = "../script.js?v=" + VERSION;
-      document.body.appendChild(main);
-    })();
-  </script>
+  <!-- cache busting -->
+  <link rel="stylesheet" href="../style.css?v=26-1-4.1" />
 </head>
 <body>
   <main class="wrap">
@@ -39,12 +19,10 @@
         </div>
       </header>
 
-      <!-- SEARCH -->
       <div class="search-wrap">
         <input id="productSearch" class="search-input" type="text" placeholder="Cari produk..." autocomplete="off" />
       </div>
 
-      <!-- GRID PRODUK -->
       <div id="productGrid" class="product-grid"></div>
 
       <div class="actions" style="margin-top:14px;">
@@ -59,5 +37,9 @@
       </div>
     </section>
   </main>
+
+  <!-- ✅ defer + urutan aman + cache busting -->
+  <script src="../products.js?v=26-1-4.1" defer></script>
+  <script src="../script.js?v=26-1-4.1" defer></script>
 </body>
 </html>
