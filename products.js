@@ -12,12 +12,6 @@ window.PRODUCTS = [
     link: "https://s.shopee.co.id/3fxA1z4M9X"
   },
   {
-    title: "Hokky Pelet Pakan Kura Kura Stick Food Optimum Growth",
-    price: "Rp 6.575",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-8224y-mhygw4a57chy01.webp",
-    link: "https://s.shopee.co.id/AAAdfCddYp"
-  },
-  {
     title: "FOLAMIL GENIO 30 CAPSUL",
     price: "Rp 155.000",
     img: "https://down-id.img.susercontent.com/file/id-11134207-8224x-mi12itqxli4jbe.webp",
