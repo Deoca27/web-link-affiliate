@@ -6,7 +6,7 @@ window.PRODUCTS = [
     link: "https://s.shopee.co.id/7fTInFdXKI"
   },
   {
-    title: "Ikanesia - My Kura Untuk Daya Tahan Tubuh Kura-Kura 350 [TOPLES BIG SIZE]",
+    title: "Makanan/pakan kura-kura Ikanesia - My Kura Untuk Daya Tahan Tubuh Kura-Kura",
     price: "Rp 17.500 - Rp 22.500",
     img: "https://down-id.img.susercontent.com/file/67d3b80a155d1ea042c946ab08302ba6.webp",
     link: "https://s.shopee.co.id/3fxA1z4M9X"
