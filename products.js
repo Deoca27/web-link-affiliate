@@ -1,5 +1,29 @@
 window.PRODUCTS = [
   {
+    title: "Parfum Mobil ZOOM organic BUBBLE GUM Pengharum block Gantung Original",
+    price: "Rp 23.590",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-7r992-lmmedvt7uobl63.webp",
+    link: "https://s.shopee.co.id/AUnU3bt6FL"
+  },
+  {
+    title: "Zoom Organic Block Parfum Pengharum Dan Pewangi Mobil - Bubble Gum",
+    price: "Rp 164.000",
+    img: "https://down-id.img.susercontent.com/file/sg-11134201-7rbme-lpt40pn5eu962a.webp",
+    link: "https://s.shopee.co.id/8zygGwATFT"
+  },
+  {
+    title: "Hokky Pelet Pakan Kura Kura Stick Food Optimum Growth",
+    price: "Rp 6.575",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-8224y-mhygw4a57chy01.webp",
+    link: "https://s.shopee.co.id/AAAdfCddYp"
+  },
+  {
+    title: "Pakan kura kura HOKKY PEDFOOD",
+    price: "Rp 12.000",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-7rasa-m4cy56nmds3ref.webp",
+    link: "https://s.shopee.co.id/8APZHi6rVp"
+  },
+  {
     title: "Jas Hujan Setelan Baju Celana Pria Wanita Tebal Kuat Anti Rembes by AKSARA Original",
     price: "Rp 75.000",
     img: "https://down-id.img.susercontent.com/file/id-11134207-81ztg-meqqofinmkg04a.webp",
