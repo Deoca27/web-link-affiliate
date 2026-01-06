@@ -6,6 +6,12 @@ window.PRODUCTS = [
     link: "https://s.shopee.co.id/7fTInFdXKI"
   },
   {
+    title: "USUS CRISPY keripik usus",
+    price: "Rp 56.000 - Rp 97.000",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-81zth-meds94i963gja2.webp",
+    link: "https://s.shopee.co.id/3fx7HleWJR"
+  },
+  {
     title: "Makanan/pakan kura-kura Ikanesia - My Kura Untuk Daya Tahan Tubuh Kura-Kura",
     price: "Rp 17.500 - Rp 22.500",
     img: "https://down-id.img.susercontent.com/file/67d3b80a155d1ea042c946ab08302ba6.webp",
@@ -34,12 +40,6 @@ window.PRODUCTS = [
     price: "Rp 47.493",
     img: "https://down-id.img.susercontent.com/file/id-11134207-7r98q-lzsui3k0vmcoc6.webp",
     link: "https://s.shopee.co.id/8pfDRFB0no"
-  },
-  {
-    title: "USUS CRISPY keripik usus",
-    price: "Rp 56.000 - Rp 97.000",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-81zth-meds94i963gja2.webp",
-    link: "https://s.shopee.co.id/3fx7HleWJR"
   },
   {
     title: "LITTLE O Tumbler STARBUCKS Tumbler Stainley",
