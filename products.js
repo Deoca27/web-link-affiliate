@@ -12,6 +12,18 @@ window.PRODUCTS = [
     link: "https://s.shopee.co.id/3fx7HleWJR"
   },
   {
+    title: "Hodl Scent Parfum Paket Hemat 3 Botol Eau De Perfume 75 ml Tahan Lama EDP",
+    price: "Rp 271.400 - Rp 277.300",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-7r98z-lxnifousjkfif4.webp",
+    link: "https://s.shopee.co.id/3B0wUk89Qm"
+  },
+  {
+    title: "Hoerrye Magsafe Case iPhone 17 Pro Max Anti Kuning TPU Matte Couple Case for iPhone13-17",
+    price: "Rp 153.000",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-8224q-mgqclyavj9xod6.webp",
+    link: "https://s.shopee.co.id/30hWISdNzM"
+  },
+  {
     title: "Makanan/pakan kura-kura Ikanesia - My Kura Untuk Daya Tahan Tubuh Kura-Kura",
     price: "Rp 17.500 - Rp 22.500",
     img: "https://down-id.img.susercontent.com/file/67d3b80a155d1ea042c946ab08302ba6.webp",
