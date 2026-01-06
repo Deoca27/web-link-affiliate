@@ -12,42 +12,6 @@ window.PRODUCTS = [
     link: "https://s.shopee.co.id/3fxA1z4M9X"
   },
   {
-    title: "FOLAMIL GENIO 30 CAPSUL",
-    price: "Rp 155.000",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-8224x-mi12itqxli4jbe.webp",
-    link: "https://s.shopee.co.id/8zygISkslt"
-  },
-  {
-    title: "PROVE D3 Tablet - Vitamin D3 1000 IU",
-    price: "Rp 68.140",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-81ztp-mf9iw6h8hudpe4.webp",
-    link: "https://s.shopee.co.id/8zygIkNJqY"
-  },
-  {
-    title: "PROVE D3 Tablet 1 Strip x 10 Tablet - Vitamin D3 1000 IU",
-    price: "Rp 25.958",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-81zti-mfkxhk0gwyrw28.webp",
-    link: "https://s.shopee.co.id/1BFoyhcPRS"
-  },
-  {
-    title: "Expert Boost - Gummy Vitamin D 600 IU Anak dan Dewasa",
-    price: "Rp 76.700 - Rp 93.900",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-7ra0u-mcfn5ki6ld1ed7.webp",
-    link: "https://s.shopee.co.id/9pXnIlbWHX"
-  },
-  {
-    title: "CAL-95 1 Box @ 30 Kaplet / Suplemen Kalsium",
-    price: "Rp 270.000",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-8224q-mgbzusgf1jimd9.webp",
-    link: "https://s.shopee.co.id/8fLpusEbDP"
-  },
-  {
-    title: "Maltofer Tablet 1 Strip 6 TAB / ZAT BESI / PENAMBAH DARAH / SUPLEMENT",
-    price: "Rp 26.333",
-    img: "https://down-id.img.susercontent.com/file/id-11134207-7rasm-m16hellrm58f27.webp",
-    link: "https://s.shopee.co.id/AUnUPmNAZx"
-  },
-  {
     title: "Jas Hujan Setelan Baju Celana Pria Wanita Tebal Kuat Anti Rembes by AKSARA Original",
     price: "Rp 75.000",
     img: "https://down-id.img.susercontent.com/file/id-11134207-81ztg-meqqofinmkg04a.webp",
@@ -118,5 +82,42 @@ window.PRODUCTS = [
     price: "Rp 165.000",
     img: "https://down-id.img.susercontent.com/file/id-11134207-7rbk6-macmhdxw0ybc50.webp",
     link: "https://s.shopee.co.id/qcx8KW2CN"
+  },
+  {
+    title: "FOLAMIL GENIO 30 CAPSUL",
+    price: "Rp 155.000",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-8224x-mi12itqxli4jbe.webp",
+    link: "https://s.shopee.co.id/8zygISkslt"
+  },
+  {
+    title: "PROVE D3 Tablet - Vitamin D3 1000 IU",
+    price: "Rp 68.140",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-81ztp-mf9iw6h8hudpe4.webp",
+    link: "https://s.shopee.co.id/8zygIkNJqY"
+  },
+  {
+    title: "PROVE D3 Tablet 1 Strip x 10 Tablet - Vitamin D3 1000 IU",
+    price: "Rp 25.958",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-81zti-mfkxhk0gwyrw28.webp",
+    link: "https://s.shopee.co.id/1BFoyhcPRS"
+  },
+  {
+    title: "Expert Boost - Gummy Vitamin D 600 IU Anak dan Dewasa",
+    price: "Rp 76.700 - Rp 93.900",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-7ra0u-mcfn5ki6ld1ed7.webp",
+    link: "https://s.shopee.co.id/9pXnIlbWHX"
+  },
+  {
+    title: "CAL-95 1 Box @ 30 Kaplet / Suplemen Kalsium",
+    price: "Rp 270.000",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-8224q-mgbzusgf1jimd9.webp",
+    link: "https://s.shopee.co.id/8fLpusEbDP"
+  },
+  {
+    title: "Maltofer Tablet 1 Strip 6 TAB / ZAT BESI / PENAMBAH DARAH / SUPLEMENT",
+    price: "Rp 26.333",
+    img: "https://down-id.img.susercontent.com/file/id-11134207-7rasm-m16hellrm58f27.webp",
+    link: "https://s.shopee.co.id/AUnUPmNAZx"
   }
+
 ];
