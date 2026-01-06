@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     btnBuy.href = product.link || "#";
     btnBuy.target = "_blank";
     btnBuy.rel = "noopener";
-    btnBuy.textContent = "Beli";
+    btnBuy.textContent = "Lihat Produk";
 
     actions.appendChild(btnBuy);
 
